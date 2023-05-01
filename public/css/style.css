@@ -3,3 +3,7 @@ h1 {
     color: cornflowerblue;
   }
   
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
