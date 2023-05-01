@@ -4,6 +4,13 @@ router.get('/new', (req, res) => {
   res.render('places/new')
 })
 
+//Post /places
+router.post('/', (req, res) => {
+  console.log(req.body)
+  res.send('POST /places')
+})
+
+
 
 // GET /places
 router.get('/', (req, res) => {
